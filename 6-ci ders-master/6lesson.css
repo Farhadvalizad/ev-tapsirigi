@@ -1,0 +1,177 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+.Container{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 20;
+}
+ .Header{
+     padding: 20px 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/bg-masthead.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: auto;
+
+    }
+ 
+.Logo{
+    width: 55%;
+    float: left;
+}
+
+.Logo a, .Navbar a{   
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .7);
+    transition: color .3s;
+}
+.Logo a:hover, .Navbar a:hover{
+    color: white;
+}
+.Navbar {
+    width: 45%;
+    float: right;
+}
+.Navbar a{
+    font-size: 20px;
+}
+.Navbar li{
+    float: left;
+    padding: 5px 14px;
+}
+/* 2ci hisse */
+.Section2{
+    text-align: center;
+    line-height: 1.5;
+    padding: 20%;
+}
+.Section2 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 41px;
+}
+.Section2 p {
+    color: rgba(255, 255, 255, .75);
+    font-size: 20px;
+    padding: 10px 0 40px 0;
+    
+}
+.Section2 hr{
+    margin: 10px;
+    border-color: #f4623a ;
+    max-width: 50px;
+    border-width: 1px;
+    
+}
+.Section2 button{
+    border:none;
+    padding: 18px 23px 18px 23px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: orangered;
+}
+/* 3cu hisse */
+
+.Section3 {
+    font-size: 20px;
+    background-color: #f4623a;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 70px;
+}
+.Section3 .index h2{
+    color: #fff;
+    font-size: 100%;
+    font-size: 25px;
+}
+.index hr{
+    margin: 10px;
+    border-color: #fff ;
+    max-width: 50px;
+    border-width: 2px;
+    border-radius: none;
+    font-size: 25px;
+
+}
+.index p{
+    color:rgba(255, 255, 255, .5);
+    padding: 25px;
+    font-weight: 700;
+}
+
+.index button{
+    border:none;
+    padding: 18px 33px 18px 33px;
+    border-radius: 25px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.text h3{
+    padding-top: 15%;
+    /* 5ci hisse */
+}
+.img-holder .img{
+    width: 33.3%;
+    height: 200px;
+    float: left;
+    background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg);
+
+}
+
+.img-holder .text{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: opacity  .4s;
+    opacity: 0;
+    text-align: center;
+
+}
+
+.img:hover .text{
+    opacity: 7;
+}
+
+.block{
+    display: block;
+    width: 20%;
+    height: 200px;
+    background-color: red;
+}
+.inline{
+    display: inline;
+    width: 20%;
+    height: 200px;
+    background-color: violet;
+
+}
+.inline-block{
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    background-color: blue;
+
+}
